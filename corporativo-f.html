@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="css/style-aniversario-f.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/9c3770e31f.js" crossorigin="anonymous"></script>
+    <title>Corporativo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo2.jpg" class="logo" alt="hDC Host">
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="eventos.html">Eventos</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contatos</a>
+                    </li>
+                </ul>
+            </nav>                   
+        </div>
+    <div class="container">
+        <div class="header">
+            <h1> Black Eventos</h1>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h2 class="form-title">Evento Corporativo</h2>                
+                <p>
+                    REGISTRE-SE
+                </p>
+                <form>
+                    <div class="box-input">
+                        <div class="box-input">
+                            <label for="title">Nome <sapn class="required-field">*</sapn></label>
+                            <input
+                            type="text"
+                            name="title"
+                            id="title"
+                            class="block"
+                            placeholder="Nome e Sobrenomes"
+                            minlength="1"
+                            maxlength="30"
+                            required />
+                        </div>
+                        <div class="box-input">
+                            <label for="title">CPF <sapn class="required-field">*</sapn></label>
+                            <input
+                            type="text"
+                            name="title"
+                            id="title"
+                            class="block"
+                            placeholder="CPF"
+                            minlength="1"
+                            maxlength="30"
+                            required />
+                        </div>
+                    <div class="box-input">
+                        <label for="title">E-mail<sapn class="required-field">*</sapn></label>
+                        <input
+                        type="text"
+                        name="title"
+                        id="title"
+                        class="block"
+                        placeholder="E-mail"
+                        minlength="1"
+                        maxlength="30"
+                        required />
+                    </div>
+                    <div class="box-input">
+                        <label for="brand">Telefone <sapn class="required-field">*</sapn></label>
+                        <input
+                        type="text"
+                        name="brand"
+                        id="brand"
+                        class="block"
+                        placeholder="(88) ****-***"
+                        required />
+                    </div>
+                    <div class="box-input">
+                        <label for="model">Cidade do evento<sapn class="required-field">*</sapn></label>
+                        <input
+                        type="text"
+                        name="model"
+                        id="model"
+                        class="block"
+                        required />
+                    </div>
+                    <div class="box-input">
+                        <p>Evento sera:</p><sapn class="required-field">*</sapn>
+                       <input type="radio" id="infantil" name="gear">
+                       <label for="infatil">publico</label>
+                       <input type="radio" id="Adulto" name="gear">
+                       <label for="Adulto">particular</label>
+                    </div>
+                    <div class="box-input">
+                        <label for="model"> Tipo de evento corporativo<sapn class="required-field">*</sapn></label>
+                        <input
+                        type="text"
+                        name="model"
+                        id="model"
+                        class="block"
+                        placeholder="Ex:Workshops e oficinas"
+                        required />
+                    </div>
+                    <div class="box-input">
+                        <label for="mileage">Capacidade de convidados <sapn class="required-field">*</sapn></label>
+                        <input
+                        type="text"
+                        name="mileage"
+                        id="mileage"
+                        class="block"
+                        placeholder="Ex:100 a 300"
+                        required />
+                    </div>
+                    <div class="box-input">
+                        <label for="purchase_date">Data do evento <sapn class="required-field">*</sapn></label>
+                        <input
+                        type="date"
+                        name="purchase_date"
+                        id="purchase_date"
+                        class="block"
+                        required />
+                    </div>
+                    <div class="opitional-box">
+                        <p>Opicionais</p>
+                        <ul class="opitional-list">
+                            <li>
+                                <input
+                                type="checkbox"
+                                id="airbag"
+                                name="opitional[]"
+                                value="airbag">
+                                <label for="airbag">telão</label>
+                            </li>
+                            <li>
+                                <input
+                                type="checkbox"
+                                id="alarm"
+                                name="opitional[]"
+                                value="alarm">                               
+                                <label for="alarm">Segurança</label>
+                            </li>
+                            <li>
+                                <input
+                                type="checkbox"
+                                id="ac"
+                                name="opitional[]"
+                                value="ac">                               
+                                <label for="ac">Buffet</label>
+                            </li>
+                            <li>
+                                <input
+                                type="checkbox"
+                                id="reverse-camera"
+                                name="opitional[]"
+                                value="reverse-camera">                               
+                                <label for="reverse-camera">Fotografo</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="opitional-box">                        
+                        <ul class="opitional-list">
+                            <li>
+                                <input
+                                type="checkbox"
+                                id="lane_assist"
+                                name="opitional[]"
+                                value="lane_assist">
+                                <label for="lane_assist">Caixa de som</label>
+                            </li>
+                            <li>
+                                <input
+                                type="checkbox"
+                                id="keyless"
+                                name="opitional[]"
+                                value="keyless">                               
+                                <label for="keyless">pulseira para especificar participantes</label>
+                            </li>
+                            <li>
+                                <input
+                                type="checkbox"
+                                id="smartphone"
+                                name="opitional[]"
+                                value="smartphone">
+                               
+                                <label for="smartphone">Drinks</label>
+                            </li>
+                            <li>
+                                <input
+                                type="checkbox"
+                                id="leather_seat"
+                                name="opitional[]"
+                                value="leather_seat">                               
+                                <label for="leather_seat">Album de fotos</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-input">
+                        <label for="description">Descrição<sapn class="required-field">*</sapn></label>
+                        <textarea
+                        name="description"
+                        id="description"
+                        class="block"
+                        placeholder="Aqui você coloca os detalhes do veículo,
+                        por exemplo: se ele tem algum arranhão">
+                    </textarea>                   
+                    </div>                    
+                    <input type="submit" value="contratar" class="btn-submit">
+            </div>
+            </form>
+        </div>
+    </div>
+    <footer>        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div>
+            <a href="#"><i class="fa-brands fa-facebook" style="color: #ffbc00;"></i></a>
+            <a href=""><i class="fa-brands fa-twitter" style="color: #ffbc00;"></i></a>
+            <a href=""><i class="fa-brands fa-instagram" style="color: #ffbc00;"></i></a>                        
+        </div>    
+        <p>Black Eventos</p>
+    </footer>
+</body>
+</html>

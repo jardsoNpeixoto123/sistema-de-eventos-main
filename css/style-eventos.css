@@ -1,0 +1,110 @@
+/* Estilizando o h1 */
+
+.evetos-titulo{
+    background-image: url(/img/dj.jpg);
+    background-position: center;
+}
+.evetos-titulo h1 {
+    background: rgba(15, 12, 12, 0.623);
+    font-size: 50px;
+    color: #ffbc00;
+    text-shadow: 2px 2px 4px #000; 
+    padding: 5rem 0;
+    text-align: center;
+}
+
+/* Estilizando o parágrafo (p) */
+.evetos-titulo p {
+    background: rgba(15, 12, 12, 0.623);   
+    font-size: 25px;
+    text-align: center;
+    color: #ffbc00;
+    font-weight: bold;
+    text-shadow: #000 2px 1px 1px;
+    padding-bottom: 70px;
+}
+
+h2{
+    font-size: 50px;
+    color: #ffbc00;
+    text-shadow: 2px 2px 4px #333; 
+    /* padding: 5rem 0; */
+    text-align: center;
+}
+
+.aniversario,
+.corporativo,
+.casamentos,
+.formatura{
+    border-top: 8px double #ffbc00;
+    /* border-bottom: 4px dashed #ddd; */
+}
+
+.aniversario p,
+.corporativo p,
+.casamentos p,
+.formatura p {
+    margin: 40px;
+    line-height: 1.8em;
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+    font-weight: normal;
+    text-shadow: none;
+    text-align: center;
+}
+
+.eventos-aniversario-img,
+.eventos-corporativo-img,
+.eventos--img,
+.eventos-formatura-img {
+    text-align: center;
+}
+
+.eventos-aniversario-img img,
+.eventos-corporativo-img img,
+.eventos--img img,
+.eventos-formatura-img img {
+    width: 400px;
+    height: auto; 
+    display: inline-block;
+}
+
+.eventos-aniversario-btn,
+.eventos-casamento-btn,
+.eventos-corporativo-btn,
+.eventos-formatura-btn {
+    text-align: center;
+}
+
+.eventos-aniversario-btn button,
+.eventos-casamento-btn button,
+.eventos-corporativo-btn button,
+.eventos-formatura-btn button {
+    text-align: center; 
+    background-color: #ffbc00; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+    margin: 25px;
+}
+
+.eventos-aniversario-btn button a,
+.eventos-casamento-btn button a ,
+.eventos-corporativo-btn button a,
+.eventos-formatura-btn button a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+
+.eventos-aniversario-btn button:hover,
+.eventos-corporativo-btn button:hover,
+.eventos-casamento-btn button:hover,
+.eventos-formatura-btn button:hover {
+    background-color: #ffff00; 
+}

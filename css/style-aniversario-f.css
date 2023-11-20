@@ -1,0 +1,291 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .list-menu {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+body {
+  background-color: #f0ebf8;
+}
+.navbar-container{
+  width: 100%;
+  height: 80px;
+  background-color: #000;
+  padding: 0 2rem;
+}
+
+.nav{
+  position: relative;
+}
+
+.logo{
+  width: 50px;
+  margin-top: 15px;
+}
+
+.navbar-items{
+  position: absolute;
+  right: 20px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+  display: inline-block;
+}
+
+.navbar-items li{
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+
+.navbar-items a{
+  color: #ffbc00;
+  text-decoration: none;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+.navbar-items a:hover{
+  color: #ccc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #000;
+}
+
+p,
+label {
+  color: #000;
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+  width: 400px;
+}
+
+textarea {
+  padding: 10px 5px;
+}
+
+/* page header */
+.header {
+  background-image: url(/img/dj.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10rem 0;
+}
+
+.header h1 {
+  font-size: 45px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: #ccc 3px 2px 3px;
+}
+
+/* form container */
+.form-container {
+  background-color: #fdfdfd;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: -62px;
+}
+
+/* form header */
+.form-header {
+  border-bottom: 1px solid #dfdfdf;
+  height: 45px;
+
+}
+
+.form-header p {
+  color: black;
+  border-bottom: 2px solid #d4d3d6;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  height: 45px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.form-header p {
+  font-size: 20px;
+}
+
+/* form body */
+.form-body {
+  padding: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}
+
+.form-title {
+  text-align: center;
+  padding: 20px;
+}
+
+form-title {
+  margin-bottom: 15px;
+}
+.form-body p {
+  margin-bottom: 20px;
+}
+.required-field {
+  color: red;
+}
+.box-input {
+  margin-bottom: 35px;
+}
+.block {
+  display: block;
+}
+.opitional-box {
+  display: inline-block;
+  margin: 0 30px 30px 0;
+}
+.opitional-list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.box-input p {
+  margin-bottom: 20px;
+
+}
+
+.btn-submit {
+  background: rgb(255, 145, 0);
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0, 5s;
+}
+
+.btn-submit:hover {
+  background-color: #ffbc00;
+  border-color: #000;
+  color: #000;
+  font-weight: bold;
+}
+
+footer {
+  background: #000; 
+  color: #ffbc00; 
+  padding: 20px;
+  text-align: center;
+}
+footer nav ul {
+  color: #ffbc00;
+  list-style: none;
+  padding: 0;
+}
+footer nav ul li {
+  color: #ffbc00;
+  display: inline;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+footer a {
+  text-decoration: none; 
+  color: #ffbc00;
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer p{
+  font-size: 50px;
+  line-height: 30px;
+  color: #ffbc00;
+  padding: 20px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+@media (max-width: 900px){
+  .main-banner p {
+      padding: 0 6rem;
+  }
+.searchomain-container{
+  padding: 2rem 4rem; 
+}
+}
+
+@media (max-width: 576px) {
+  html,
+  body{
+      overflow-x: hidden;
+  }
+
+  .navbar-items li{
+      font-size: 12px;
+      margin-left: 10px;
+  }
+
+  .main-banner p{
+      padding: 0 2rem;
+  }
+
+  .services-container ul{
+      flex-direction: column;
+  }
+  
+  .plans-container{
+      flex-direction: column;
+      width: 100%;
+      padding: 0 2rem;
+  }
+  
+  .plan{
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 15px;
+  }
+
+  .searchomain-container h2 {
+      font-size: 28px;
+  }
+
+  .searchomain-container input[type="text"]{
+      width: 100%;
+  }
+
+  .contact-container{
+      padding: 3rem 2rem;
+  }
+  
+  .contact-container input,
+  .contact-container textarea{
+      width: 100%;
+      margin: 10px 0;
+  }
+}

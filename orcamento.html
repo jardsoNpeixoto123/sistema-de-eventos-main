@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style-orcamento.css">
+    <link rel="stylesheet" href="/css/style.css">      
+    <title>Orçamento de Eventos - Black Eventos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>  
+    <script src="/js/orcamento.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo2.jpg" class="logo" alt="hDC Host">
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="eventos.html">Eventos</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contatos</a>
+                    </li>
+                </ul>
+            </nav>                   
+        </div>
+        <main>
+    <h2 class="titulo">Orçamento de Eventos - Black Eventos</h2>
+
+    <div class="form">
+    <form class="texto"  id="form">
+        <label for="eventName">Nome do Evento:</label>
+        <input type="text" id="eventName" required>
+
+        <label class="texto" for="eventType">Tipo de Evento:</label>
+        <select class="option" id="eventType" required>
+            <option class="" value="casamento">Casamento</option>
+            <option value="aniversario">Aniversário</option>
+            <option value="corporativo">Evento Corporativo</option>
+            <option value="formatura">Formatura</option>
+            
+        </select>
+
+        <label class="texto" for="guests">Número de Convidados:</label>
+        <input type="number" id="guests" required>
+
+        <label class="texto" for="decorations">Decorações:</label>
+        <select class="option" id="decorations">
+            <option value="basico">Básico</option>
+            <option value="luxo">Luxo</option>
+        </select>
+
+        <label class="texto" for="catering">Catering:</label>
+        <select class="option" id="catering">
+            <option value="buffet">Buffet</option>
+            <option value="fingerfood">Finger Food</option>
+        </select>
+
+        <label class="texto" for="clientNotes">Notas do Cliente:</label>
+        <textarea id="clientNotes"></textarea>
+    </div>
+
+        <button class="botao" type="button" onclick="generatePDF()">Gerar Orçamento</button>
+    </main>
+    </form>
+    <footer>        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div>
+          <a href="#"><i class="fa-brands fa-facebook" style="color: #ffbc00;"></i></a>
+          <a href=""><i class="fa-brands fa-twitter" style="color: #ffbc00;"></i></a>
+          <a href=""><i class="fa-brands fa-instagram" style="color: #ffbc00;"></i></a>                     
+        </div>
+
+        <p>Black Eventos</p>
+    </footer>    
+</body>
+</html>
